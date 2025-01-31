@@ -1,24 +1,38 @@
-# Logs
-logs
-*.log
+# Игнорировать зависимости
+node_modules/
+.pnpm-store/
+
+# Игнорировать файлы окружения
+.env
+.env.local
+.env.development
+.env.production
+
+# Игнорировать логи и кэш
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+.pnp*
+.pnp.js
 
-node_modules
-dist
-dist-ssr
-*.local
+# Игнорировать папки сборки
+dist/
+build/
+out/
+.next/
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# Игнорировать системные файлы
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+Thumbs.db
+
+# Игнорировать настройки IDE
+.vscode/
+.idea/
+
+# Игнорировать тестовые данные
+coverage/
+.nyc_output/
+
+# Игнорировать ESLint и Prettier кэш
+.eslintcache
+.prettiercache
