@@ -1,0 +1,18 @@
+@import "../../../node_modules/tailwindcss";
+
+:root {
+  font-family: Montserrat, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+@theme {
+  --font-display: "Montserrat", "sans-serif";
+
+  --color-dark: #1b1b1b;
+  --color-light: #f5f5f5;
+  --color-primary: #b63e96;
+  --color-primary-dark: #58e6d9;
+
+  --animate-spin-slow: spin 10s linear infinite;
+}
