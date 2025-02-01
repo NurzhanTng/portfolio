@@ -8,7 +8,7 @@ const Skill = ({ name, x, y }) => {
         scale: 1.05,
       }}
       initial={{ x: 0, y: 0 }}
-      animate={{ x: x, y: y }}
+      whileInView={{ x: x, y: y }}
       transition={{ duration: 1.5 }}
       viewport={{ once: true }}
     >
